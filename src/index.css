@@ -1,0 +1,85 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+.con{
+    text-align: center;
+    margin-right: 20px;
+}
+.contents{
+    display: flex;
+    gap:10px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    
+    
+}
+.contents a {
+  text-decoration: none;
+  color:gray;
+  
+}
+.contents a:hover{
+    color: white;
+}
+.InputBox {
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input{
+    width: 80%;
+    padding: 10PX;
+    border:2px solid gray;
+    outline: none;
+}
+.maincontainer {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    border:3px solid black;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.aboutUs{
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+}
+.footerCon{
+    
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
